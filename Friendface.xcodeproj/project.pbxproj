@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC719116220042B10074C550 /* JSONDecoder-Remote.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC719115220042B10074C550 /* JSONDecoder-Remote.swift */; };
+		AC87205C2204238100C3649F /* FriendDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC87205B2204238100C3649F /* FriendDataSource.swift */; };
 		ACC36FFB22003217008EAFF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC36FFA22003217008EAFF5 /* AppDelegate.swift */; };
 		ACC36FFD22003217008EAFF5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC36FFC22003217008EAFF5 /* ViewController.swift */; };
 		ACC3700022003217008EAFF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACC36FFE22003217008EAFF5 /* Main.storyboard */; };
 		ACC370022200321B008EAFF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACC370012200321B008EAFF5 /* Assets.xcassets */; };
 		ACC370052200321B008EAFF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACC370032200321B008EAFF5 /* LaunchScreen.storyboard */; };
+		ACC3700D220034BB008EAFF5 /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC3700C220034BB008EAFF5 /* Friend.swift */; };
+		ACC3700F2200361C008EAFF5 /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC3700E2200361C008EAFF5 /* Connection.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AC719115220042B10074C550 /* JSONDecoder-Remote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JSONDecoder-Remote.swift"; sourceTree = "<group>"; };
+		AC87205B2204238100C3649F /* FriendDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendDataSource.swift; sourceTree = "<group>"; };
 		ACC36FF722003217008EAFF5 /* Friendface.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Friendface.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACC36FFA22003217008EAFF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ACC36FFC22003217008EAFF5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +28,8 @@
 		ACC370012200321B008EAFF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACC370042200321B008EAFF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ACC370062200321B008EAFF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACC3700C220034BB008EAFF5 /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
+		ACC3700E2200361C008EAFF5 /* Connection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connection.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +43,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AC87205D22042B4000C3649F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ACC3700C220034BB008EAFF5 /* Friend.swift */,
+				ACC3700E2200361C008EAFF5 /* Connection.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		ACC36FEE22003217008EAFF5 = {
 			isa = PBXGroup;
 			children = (
@@ -56,10 +73,13 @@
 			children = (
 				ACC36FFA22003217008EAFF5 /* AppDelegate.swift */,
 				ACC36FFC22003217008EAFF5 /* ViewController.swift */,
+				AC719115220042B10074C550 /* JSONDecoder-Remote.swift */,
+				AC87205B2204238100C3649F /* FriendDataSource.swift */,
 				ACC36FFE22003217008EAFF5 /* Main.storyboard */,
 				ACC370012200321B008EAFF5 /* Assets.xcassets */,
 				ACC370032200321B008EAFF5 /* LaunchScreen.storyboard */,
 				ACC370062200321B008EAFF5 /* Info.plist */,
+				AC87205D22042B4000C3649F /* Model */,
 			);
 			path = Friendface;
 			sourceTree = "<group>";
@@ -135,8 +155,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC87205C2204238100C3649F /* FriendDataSource.swift in Sources */,
+				AC719116220042B10074C550 /* JSONDecoder-Remote.swift in Sources */,
+				ACC3700D220034BB008EAFF5 /* Friend.swift in Sources */,
 				ACC36FFD22003217008EAFF5 /* ViewController.swift in Sources */,
 				ACC36FFB22003217008EAFF5 /* AppDelegate.swift in Sources */,
+				ACC3700F2200361C008EAFF5 /* Connection.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
